@@ -1,0 +1,666 @@
+﻿DEBUG 2017-09-28 08:09:37,859 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-28 08:09:37,874 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2017-09-28 08:09:37,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.Web.PhoneBookWebModule, SSoft.PhoneBook.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookDataModule, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookCoreModule, SSoft.PhoneBook.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookApplicationModule, SSoft.PhoneBook.Application, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.WebApi.PhoneBookWebApiModule, SSoft.PhoneBook.WebApi, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:37,890 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2017-09-28 08:09:38,164 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:09:38,164 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:09:38,164 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:09:38,164 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:09:38,555 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SSoft.PhoneBook.EntityFramework.PhoneBookDbContext, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:09:41,127 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-28 08:09:41,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-28 08:09:41,155 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-28 08:09:41,163 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-28 08:09:41,179 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2017-09-28 08:09:41,264 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-28 08:09:42,353 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:09:42,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes define auto mapping attributes
+DEBUG 2017-09-28 08:09:42,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Cache.FriendCacheItem
+DEBUG 2017-09-28 08:09:42,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Dto.FriendDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionEditDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.FlatFeatureDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionListDto
+DEBUG 2017-09-28 08:09:42,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatMessageDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Auditing.Dto.AuditLogListDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-09-28 08:09:42,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-28 08:09:42,977 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:09:43,005 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:09:43,014 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-09-28 08:09:43,014 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-09-28 08:09:43,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-28 08:09:43,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-09-28 08:09:43,017 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-09-28 08:09:43,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-28 08:09:43,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-09-28 08:09:43,021 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-09-28 08:09:43,022 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-09-28 08:09:43,023 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-09-28 08:09:43,024 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-09-28 08:09:43,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-09-28 08:09:43,026 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-09-28 08:09:43,026 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-09-28 08:09:43,027 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-09-28 08:09:43,028 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-09-28 08:09:43,029 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-09-28 08:09:43,030 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-28 08:09:43,031 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-09-28 08:09:43,033 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-28 08:09:43,034 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-09-28 08:09:43,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2017-09-28 08:10:36,109 [11   ] neBook.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 215
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<Login>d__20.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 144
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-09-28 08:11:30,472 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-28 08:11:30,485 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2017-09-28 08:11:30,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.Web.PhoneBookWebModule, SSoft.PhoneBook.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookDataModule, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookCoreModule, SSoft.PhoneBook.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookApplicationModule, SSoft.PhoneBook.Application, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.WebApi.PhoneBookWebApiModule, SSoft.PhoneBook.WebApi, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:30,501 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2017-09-28 08:11:30,764 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:11:30,764 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:11:30,764 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:11:30,764 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:11:31,140 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SSoft.PhoneBook.EntityFramework.PhoneBookDbContext, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:11:33,501 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-28 08:11:33,523 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-28 08:11:33,524 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-28 08:11:33,532 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-28 08:11:33,547 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2017-09-28 08:11:33,633 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-28 08:11:34,678 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:11:34,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes define auto mapping attributes
+DEBUG 2017-09-28 08:11:34,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Cache.FriendCacheItem
+DEBUG 2017-09-28 08:11:34,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-28 08:11:34,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-28 08:11:34,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-09-28 08:11:34,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-09-28 08:11:34,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-09-28 08:11:34,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Dto.FriendDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionEditDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.FlatFeatureDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionListDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatMessageDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserDto
+DEBUG 2017-09-28 08:11:34,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Auditing.Dto.AuditLogListDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-09-28 08:11:34,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-28 08:11:35,321 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:11:35,345 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:11:35,355 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-09-28 08:11:35,356 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-09-28 08:11:35,357 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-28 08:11:35,358 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-09-28 08:11:35,359 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-09-28 08:11:35,360 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-28 08:11:35,361 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-09-28 08:11:35,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-09-28 08:11:35,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-09-28 08:11:35,363 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-09-28 08:11:35,364 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-09-28 08:11:35,365 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-09-28 08:11:35,366 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-09-28 08:11:35,367 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-09-28 08:11:35,368 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-09-28 08:11:35,369 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-09-28 08:11:35,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-09-28 08:11:35,371 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-28 08:11:35,372 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-09-28 08:11:35,373 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-28 08:11:35,373 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-09-28 08:11:35,374 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2017-09-28 08:12:18,701 [18   ] neBook.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 215
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<Login>d__20.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 144
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-09-28 08:14:04,884 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-28 08:14:05,141 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2017-09-28 08:14:05,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.Web.PhoneBookWebModule, SSoft.PhoneBook.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookDataModule, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookCoreModule, SSoft.PhoneBook.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookApplicationModule, SSoft.PhoneBook.Application, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.WebApi.PhoneBookWebApiModule, SSoft.PhoneBook.WebApi, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:05,156 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2017-09-28 08:14:05,661 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:14:05,661 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:14:05,661 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:14:05,661 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:14:06,061 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SSoft.PhoneBook.EntityFramework.PhoneBookDbContext, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:14:07,051 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-28 08:14:07,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-28 08:14:07,075 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-28 08:14:07,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-28 08:14:07,097 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2017-09-28 08:14:07,180 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-28 08:14:08,269 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:14:08,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes define auto mapping attributes
+DEBUG 2017-09-28 08:14:08,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Cache.FriendCacheItem
+DEBUG 2017-09-28 08:14:08,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-28 08:14:08,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Dto.FriendDto
+DEBUG 2017-09-28 08:14:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionEditDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.FlatFeatureDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionListDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatMessageDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Auditing.Dto.AuditLogListDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-09-28 08:14:08,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-28 08:14:08,891 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:14:08,918 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:14:08,927 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-09-28 08:14:08,928 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-09-28 08:14:08,928 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-28 08:14:08,929 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-09-28 08:14:08,930 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-09-28 08:14:08,931 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-28 08:14:08,933 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-09-28 08:14:08,934 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-09-28 08:14:08,934 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-09-28 08:14:08,935 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-09-28 08:14:08,936 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-09-28 08:14:08,937 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-09-28 08:14:08,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-09-28 08:14:08,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-09-28 08:14:08,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-09-28 08:14:08,941 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-09-28 08:14:08,941 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-09-28 08:14:08,942 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-28 08:14:08,943 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-09-28 08:14:08,944 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-28 08:14:08,945 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-09-28 08:14:08,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2017-09-28 08:16:51,291 [12   ] Abp.Net.Mail.NullEmailSender             - USING NullEmailSender!
+DEBUG 2017-09-28 08:16:51,291 [12   ] Abp.Net.Mail.NullEmailSender             - SendEmailAsync:
+DEBUG 2017-09-28 08:16:51,292 [12   ] Abp.Net.Mail.NullEmailSender             - test@t.com
+DEBUG 2017-09-28 08:16:51,292 [12   ] Abp.Net.Mail.NullEmailSender             - 
+DEBUG 2017-09-28 08:16:51,292 [12   ] Abp.Net.Mail.NullEmailSender             - PhoneBook account email activation
+DEBUG 2017-09-28 08:16:51,292 [12   ] Abp.Net.Mail.NullEmailSender             - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html style="-webkit-text-size-adjust: none;-ms-text-size-adjust: none;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>PhoneBook | Welcome to PhoneBook.</title>
+</head>
+<body style="padding: 0px; margin: 0px;">
+    <div id="mailsub" class="notification" align="center">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center" bgcolor="#eff3f8">
+
+                    <!--[if gte mso 10]>
+                    <table width="680" border="0" cellspacing="0" cellpadding="0">
+                    <tr><td>
+                    <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" class="table_width_100" width="100%" style="max-width: 680px;">
+                        <!--header -->
+                        <tr>
+                            <td align="center" bgcolor="#eff3f8">
+                                <!-- padding --><div style="height: 20px; line-height: 20px; font-size: 10px;">&nbsp;</div>
+                                <table width="96%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">
+                                            <!--Item -->
+                                            <div class="mob_center_bl" style="float: left; display: inline-block; width: 115px;">
+                                                <table class="mob_center" width="115" border="0" cellspacing="0" cellpadding="0" align="left" style="border-collapse: collapse;">
+                                                    <tr>
+                                                        <td align="left" valign="middle">
+                                                            <!-- padding --><div style="height: 20px; line-height: 20px; font-size: 10px;">&nbsp;</div>
+                                                            <table width="115" border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" valign="top" class="mob_center">
+                                                                        <a href="#" target="_blank" style="color: #596167; font-family: Arial, Helvetica, sans-serif; font-size: 13px;">
+                                                                            <font face="Arial, Helvetica, sans-seri; font-size: 13px;" size="3" color="#596167">
+                                                                                <img src="http://localhost:6240/TenantCustomization/GetTenantLogo?tenantId=2" width="168" height="33" alt="PhoneBook" border="0" style="display: block;">
+                                                                            </font>
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div><!-- Item END-->
+                                            <!--[if gte mso 10]>
+                                                </td>
+                                                <td align="right">
+                                            <![endif]-->
+                                            <!--
+
+                                            Item -->
+                                            <div class="mob_center_bl" style="float: right; display: inline-block; width: 88px;">
+                                                <table width="88" border="0" cellspacing="0" cellpadding="0" align="right" style="border-collapse: collapse;">
+                                                    <tr>
+                                                        <td align="right" valign="middle">
+                                                            <!-- padding --><div style="height: 20px; line-height: 20px; font-size: 10px;">&nbsp;</div>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="right">
+                                                                        <!--social -->
+                                                                        <div class="mob_center_bl" style="width: 88px;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td width="39" align="center" style="line-height: 19px;">
+                                                                                        <a href="https://twitter.com/aspnetzero" target="_blank" style="color: #596167; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
+                                                                                            <font face="Arial, Helvetica, sans-serif" size="2" color="#596167">
+                                                                                                <img src="https://g.twimg.com/dev/documentation/image/Twitter_logo_blue_32.png" width="19" height="16" alt="Twitter" border="0" style="display: block;">
+                                                                                            </font>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                        <!--social END-->
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div><!-- Item END-->
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- padding --><div style="height: 30px; line-height: 30px; font-size: 10px;">&nbsp;</div>
+                            </td>
+                        </tr>
+                        <!--header END-->
+                        <!--content 1 -->
+                        <tr>
+                            <td align="center" bgcolor="#ffffff">
+                                <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="center">
+                                            <!-- padding --><div style="height: 100px; line-height: 100px; font-size: 10px;">&nbsp;</div>
+                                            <div style="line-height: 44px;">
+                                                <font face="Arial, Helvetica, sans-serif" size="5" color="#57697e" style="font-size: 34px;">
+                                                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 34px; color: #57697e;">
+                                                        Welcome to PhoneBook.
+                                                    </span>
+                                                </font>
+                                            </div>
+                                            <!-- padding --><div style="height: 30px; line-height: 30px; font-size: 10px;">&nbsp;</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <div style="line-height: 30px;">
+                                                <font face="Arial, Helvetica, sans-serif" size="5" color="#4db3a4" style="font-size: 17px;">
+                                                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 17px; color: #4db3a4;">
+                                                        This email is sent you to verify your email.
+                                                    </span>
+                                                </font>
+                                            </div>
+                                            <!-- padding --><div style="height: 35px; line-height: 35px; font-size: 10px;">&nbsp;</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <table width="80%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td align="center">
+                                                        <div style="line-height: 24px;">
+                                                            <font face="Arial, Helvetica, sans-serif" size="4" color="#57697e" style="font-size: 16px;">
+                                                                <span style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #57697e;">
+                                                                    <b>Name surname</b>: admin admin<br />
+<b>Tenancy name</b>: Test<br />
+<b>User name</b>: admin<br />
+<b>Password</b>: Winram583<br />
+<br />
+Please click the link below to verify your email address:<br /><br />
+<a href="http://localhost:6240/Account/EmailConfirmation?userId=CN6O1zKeZuZnq8TG5negWg%3D%3D&tenantId=EixlKpsn06lY4EDaFi95Ig%3D%3D&confirmationCode=b29a504abe6b47f8955cfd52c8576a2e">http://localhost:6240/Account/EmailConfirmation?userId=CN6O1zKeZuZnq8TG5negWg%3D%3D&tenantId=EixlKpsn06lY4EDaFi95Ig%3D%3D&confirmationCode=b29a504abe6b47f8955cfd52c8576a2e</a>
+
+                                                                </span>
+                                                            </font>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- padding --><div style="height: 45px; line-height: 45px; font-size: 10px;">&nbsp;</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--content 1 END-->
+                        <!--footer -->
+                        <tr>
+                            <td class="iage_footer" align="center" bgcolor="#eff3f8">
+                                <!-- padding --><div style="height: 40px; line-height: 40px; font-size: 10px;">&nbsp;</div>
+
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="center">
+                                            <font face="Arial, Helvetica, sans-serif" size="3" color="#96a5b5" style="font-size: 13px;">
+                                                <span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #96a5b5;">
+                                                    2015 &copy; PhoneBook.
+                                                </span>
+                                            </font>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <!-- padding --><div style="height: 50px; line-height: 50px; font-size: 10px;">&nbsp;</div>
+                            </td>
+                        </tr>
+                        <!--footer END-->
+                    </table>
+                    <!--[if gte mso 10]>
+                    </td></tr>
+                    </table>
+                    <![endif]-->
+
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
+
+WARN  2017-09-28 08:17:31,042 [34   ] neBook.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 215
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<Login>d__20.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 144
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-09-28 08:17:38,058 [12   ] neBook.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 215
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SSoft.PhoneBook.Web.Controllers.AccountController.<Login>d__20.MoveNext() in D:\Project\PhoneBook\src\SSoft.PhoneBook.Web\Controllers\AccountController.cs:line 144
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-09-28 08:18:55,063 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-28 08:18:55,319 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2017-09-28 08:18:55,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.Web.PhoneBookWebModule, SSoft.PhoneBook.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookDataModule, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookCoreModule, SSoft.PhoneBook.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.PhoneBookApplicationModule, SSoft.PhoneBook.Application, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SSoft.PhoneBook.WebApi.PhoneBookWebApiModule, SSoft.PhoneBook.WebApi, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:55,334 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2017-09-28 08:18:55,864 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:18:55,864 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:18:55,864 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:18:55,864 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-28 08:18:56,300 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SSoft.PhoneBook.EntityFramework.PhoneBookDbContext, SSoft.PhoneBook.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-28 08:18:57,332 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-28 08:18:57,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-28 08:18:57,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-28 08:18:57,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-28 08:18:57,381 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2017-09-28 08:18:57,455 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-28 08:18:58,532 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:18:58,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes define auto mapping attributes
+DEBUG 2017-09-28 08:18:58,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Cache.FriendCacheItem
+DEBUG 2017-09-28 08:18:58,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-28 08:18:58,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-28 08:18:58,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-09-28 08:18:58,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-09-28 08:18:58,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-09-28 08:18:58,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Friendships.Dto.FriendDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionEditDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.FlatFeatureDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Editions.Dto.EditionListDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatMessageDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-09-28 08:18:58,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-09-28 08:18:58,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-09-28 08:18:58,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Auditing.Dto.AuditLogListDto
+DEBUG 2017-09-28 08:18:58,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-09-28 08:18:58,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SSoft.PhoneBook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-28 08:18:59,192 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:18:59,219 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-09-28 08:18:59,229 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-09-28 08:18:59,230 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-09-28 08:18:59,231 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-28 08:18:59,232 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-09-28 08:18:59,233 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-09-28 08:18:59,234 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-28 08:18:59,234 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-09-28 08:18:59,235 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-09-28 08:18:59,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-09-28 08:18:59,238 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-09-28 08:18:59,240 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-09-28 08:18:59,241 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-09-28 08:18:59,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-09-28 08:18:59,244 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-09-28 08:18:59,245 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-09-28 08:18:59,246 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-09-28 08:18:59,247 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-09-28 08:18:59,248 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-28 08:18:59,249 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-09-28 08:18:59,250 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-28 08:18:59,251 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-09-28 08:18:59,252 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SSoft.PhoneBook.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2017-09-28 08:20:20,260 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc8562ca-646b-4961-9ed6-2a37d2ef020f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-09-28T15:20:20.2540564Z","Properties":{}}
+DEBUG 2017-09-28 08:20:20,375 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc8562ca-646b-4961-9ed6-2a37d2ef020f
+DEBUG 2017-09-28 08:26:25,068 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc8562ca-646b-4961-9ed6-2a37d2ef020f
