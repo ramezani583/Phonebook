@@ -99,6 +99,14 @@ namespace SSoft.PhoneBook.Web.App.Startup
                         requiredPermissionName: AppPermissions.Pages_Administration_Tenant_Settings
                         )
                     )
+                    .AddItem(new MenuItemDefinition(
+                        PageNames.App.Tenant.PhoneBook,
+                        L("PhoneBook"),
+                        url: "tenant.phonebook",
+                        icon: "glyphicon glyphicon-book",
+                        requiredPermissionName: AppPermissions.Pages_Tenant_PhoneBook
+                        )
+                    )
                 );
         }
 

@@ -192,6 +192,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person\Person.cs" />
     <Compile Include="PhoneBookConsts.cs" />
     <Compile Include="PhoneBookCoreModule.cs" />
     <Compile Include="PhoneBookDomainServiceBase.cs" />

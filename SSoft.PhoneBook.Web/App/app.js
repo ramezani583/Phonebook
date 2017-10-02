@@ -116,6 +116,7 @@ appModule.config([
             templateUrl: '~/App/common/views/notifications/index.cshtml'
         });
 
+        
         //HOST routes
 
         $stateProvider.state('host', {
@@ -153,6 +154,8 @@ appModule.config([
             });
         }
 
+       
+
         //TENANT routes
 
         $stateProvider.state('tenant', {
@@ -175,7 +178,13 @@ appModule.config([
                 templateUrl: '~/App/tenant/views/settings/index.cshtml'
             });
         }
-
+        if (abp.auth.hasPermission('Pages.Tenant.PhoneBook')) {
+            $stateProvider.state('tenant.phonebook', {
+                url: '/phonebook',
+                templateUrl: '~/App/tenant/views/phonebook/index.cshtml',
+                menu: 'PhoneBook'
+            });
+        }
         //$qProvider settings
         $qProvider.errorOnUnhandledRejections(false);
     }

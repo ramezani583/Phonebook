@@ -1,0 +1,7 @@
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\SSoft.PhoneBook.Web\bin\SSoft.PhoneBook.Web.dll.config
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\SSoft.PhoneBook.Web\bin\SSoft.PhoneBook.Web.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\SSoft.PhoneBook.Web\bin\SSoft.PhoneBook.Web.pdb
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Web\Debug\SSoft.PhoneBook.Web.csprojResolveAssemblyReference.cache
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Web\Debug\SSoft.PhoneBook.Web.csproj.CoreCompileInputs.cache
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Web\Debug\SSoft.PhoneBook.Web.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Web\Debug\SSoft.PhoneBook.Web.pdb

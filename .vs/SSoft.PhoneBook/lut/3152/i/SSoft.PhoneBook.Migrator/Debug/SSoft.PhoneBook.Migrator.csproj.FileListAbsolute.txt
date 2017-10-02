@@ -1,0 +1,8 @@
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tools\SSoft.PhoneBook.Migrator\bin\Debug\log4net.config
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tools\SSoft.PhoneBook.Migrator\bin\Debug\SSoft.PhoneBook.Migrator.exe.config
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tools\SSoft.PhoneBook.Migrator\bin\Debug\SSoft.PhoneBook.Migrator.exe
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tools\SSoft.PhoneBook.Migrator\bin\Debug\SSoft.PhoneBook.Migrator.pdb
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Migrator\Debug\SSoft.PhoneBook.Migrator.csproj.SSoft.PhoneBook.Migrator.exe.config
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Migrator\Debug\SSoft.PhoneBook.Migrator.csproj.CoreCompileInputs.cache
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Migrator\Debug\SSoft.PhoneBook.Migrator.exe
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Migrator\Debug\SSoft.PhoneBook.Migrator.pdb

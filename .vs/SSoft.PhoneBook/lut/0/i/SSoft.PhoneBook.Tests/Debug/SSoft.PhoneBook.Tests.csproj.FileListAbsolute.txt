@@ -1,0 +1,11 @@
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\xunit.runner.utility.net35.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\xunit.runner.reporters.net452.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\xunit.abstractions.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\xunit.execution.desktop.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\SSoft.PhoneBook.Tests.dll.config
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\SSoft.PhoneBook.Tests.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\b\Tests\SSoft.PhoneBook.Tests\bin\Debug\SSoft.PhoneBook.Tests.pdb
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Tests\Debug\SSoft.PhoneBook.Tests.csproj.CoreCompileInputs.cache
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Tests\Debug\SSoft.PhoneBook.Tests.dll
+D:\Project\PhoneBook\src\.vs\SSoft.PhoneBook\lut\0\i\SSoft.PhoneBook.Tests\Debug\SSoft.PhoneBook.Tests.pdb

@@ -1,0 +1,25 @@
+﻿@using SSoft.PhoneBook.Authorization
+<div ng-controller="tenant.views.phonebook.index as vm">
+    ...            
+    <h3>@L("AllPeople")</h3>
+    @if (IsGranted(AppPermissions.Pages_Tenant_PhoneBook_CreatePerson))
+    {
+        <!--<button class="btn btn-primary blue" ng-click="vm.openCreatePersonModal()"><i class="fa fa-plus"></i> @L("CreateNewPerson")</button>-->
+        <button ng-if="vm.permissions.createPerson" class="btn btn-primary blue" ng-click="vm.openCreatePersonModal()"><i class="fa fa-plus"></i> @L("CreateNewPerson")</button>
+    }
+    <div id="AllPeopleList" class="list-group">
+        <a href="javascript:;" class="list-group-item" ng-repeat="person in vm.persons">
+            <h4 class="list-group-item-heading">
+                {{person.name}} {{person.surname}}
+                <button ng-if="vm.permissions.deletePerson" ng-click="vm.deletePerson(person)" title="@L("Delete")" class="btn btn-circle btn-icon-only red delete-person" href="javascript:;">
+                    <i class="icon-trash"></i>
+                </button>
+            </h4>
+            <p class="list-group-item-text">
+                {{person.emailAddress}}
+            </p>
+        </a>
+    </div>
+   
+        
+</div>

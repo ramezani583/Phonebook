@@ -612,6 +612,9 @@
       <DependentUpon>index.css</DependentUpon>
     </Content>
     <Content Include="App\host\views\tenants\featuresModal.js" />
+    <Content Include="App\tenant\views\phonebook\createPersonModal.js" />
+    <Content Include="App\tenant\views\phonebook\deletePerson.js" />
+    <Content Include="App\tenant\views\phonebook\index.js" />
     <Content Include="Common\Images\app-logo-small.png" />
     <Content Include="Common\Images\logo.png" />
     <Content Include="Common\Scripts\jquery-validation-custom.js" />
@@ -2922,6 +2925,10 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css.map" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
+    <Content Include="App\tenant\views\phonebook\index.cshtml" />
+    <Content Include="App\tenant\views\phonebook\createPersonModal.cshtml" />
+    <Content Include="App\tenant\views\phonebook\vm.openCreatePersonModal.js" />
+    <Content Include="App\tenant\views\phonebook\index.less" />
     <None Include="Properties\PublishProfiles\aspnetzero - Web Deploy.pubxml" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
@@ -3167,6 +3174,7 @@
   <ItemGroup>
     <Folder Include="libs\jquery-jtable\dev\" />
     <Folder Include="libs\jquery-jtable\lib\" />
+    <Folder Include="Views\createPersonModal\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Abp\Framework\scripts\abp.d.ts" />

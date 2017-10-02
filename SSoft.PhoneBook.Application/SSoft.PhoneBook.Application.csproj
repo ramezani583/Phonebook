@@ -208,6 +208,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person\IPersonAppService.cs" />
+    <Compile Include="Person\PersonAppService.cs" />
     <Compile Include="PhoneBookApplicationModule.cs" />
     <Compile Include="PhoneBookAppServiceBase.cs" />
     <Compile Include="AppConsts.cs" />

@@ -21,7 +21,7 @@ namespace SSoft.PhoneBook.EntityFramework
     public class PhoneBookDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         /* Define an IDbSet for each entity of the application */
-
+        public virtual IDbSet<Person.Person> Persons { get; set; }
         public virtual IDbSet<BinaryObject> BinaryObjects { get; set; }
 
         public virtual IDbSet<Friendship> Friendships { get; set; }
